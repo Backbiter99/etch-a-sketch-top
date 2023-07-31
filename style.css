@@ -1,21 +1,43 @@
 body {
   margin: 0;
   padding: 0;
+  background: #e0d0d0;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.button {
+  font-size: larger;
+  font-family: "Courier New", Courier, monospace;
+  background-color: aliceblue;
+  color: #112A46;
+  border: none;
+  text-decoration: underline;
+}
+
+.button:hover {
+	cursor: pointer;
 }
 
 .container {
-	display: flex;
-	flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 960px;
+  height: auto;
+  border: 5px solid gray;
+  margin: 0 auto;
 }
 
 .square-div {
-	box-sizing: border-box;
-	border: 1px solid aliceblue;
-	width: 6.25%;
-	padding-bottom: 6.25%;
-	background: #000000;
+  box-sizing: border-box;
+  border: 1px solid #5f5f5f;
+  background: #000000;
 }
 
 .square-div-hover {
-	background: rgba(46, 43, 43, 0.74);
+  background: #5f5f5f;
 }
