@@ -15,3 +15,7 @@ body {
 	padding-bottom: 6.25%;
 	background: #000000;
 }
+
+.square-div-hover {
+	background: rgba(46, 43, 43, 0.74);
+}

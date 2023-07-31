@@ -5,6 +5,10 @@ function makeGrid(size) {
     const square = document.createElement("div");
     square.classList.add("square-div");
     container.appendChild(square);
+
+    square.addEventListener("mouseover", (e) => {
+      square.classList.add("square-div-hover");
+    });
   }
 }
 
